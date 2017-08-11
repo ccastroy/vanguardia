@@ -7,7 +7,9 @@
     "lint": "eslint src spec index.js --ext .js",
     "jasmine": "jasmine",
     "lint-test": "npm run lint && npm run jasmine",
+    "pretest": "eslint src spec index.js --ext .js",
     "test": "jasmine",
+    "posttest" : "nyc jasmine",
     "start": "node index.js"
   },
   "author": "",
