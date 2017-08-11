@@ -25,7 +25,7 @@ api.getAnime(1, (error, anime) => {
   }
   console.log(anime);
 });
-console.log('holis'); */
+console.log('holis');  */
 
 
 async function main() {
